@@ -1,0 +1,228 @@
+#  Informe de Insights y Conclusiones — Análisis de Talento y Rotación
+Empresa: ABC Corporation
+
+### **🧭 Objetivo del análisis**
+
+Este informe resume los hallazgos clave del análisis de datos de talento en ABC Corporation.
+Se centra exclusivamente en insights accionables, patrones de rotación, riesgos detectados, y recomendaciones de actuación.
+
+La investigación se estructuró en torno a variables de talento, satisfacción, edad, promociones, incentivos, carga laboral, modalidad de trabajo y características organizacionales, buscando comprender por qué los empleados permanecen o abandonan la empresa.
+
+
+### **1. Conclusiones Globales del Análisis**
+🔹 1.1. Rotación asociada a la edad
+
+- La mayor rotación se concentra en empleados entre 18 y 22 años.
+
+- La franja con mayor estabilidad es la de 38 a 41 años.
+
+- La rotación repunta de nuevo después de los 58 años.
+
+Interpretación:
+La juventud es un factor de riesgo: búsqueda de mejores oportunidades, menor compromiso inicial, exploración laboral, etc.
+
+🔹 1.2. Satisfacción laboral por género y estado civil
+
+No existen diferencias significativas globales por género o estado civil.
+
+Excepciones detectadas:
+
+- Hombres divorciados muestran mayor satisfacción.
+
+- Mujeres solteras presentan mayor satisfacción que hombres solteros.
+
+Insight clave:
+El género o estado civil no explican la rotación, pero puede haber dinámicas de conciliación que afecten más a algunos subgrupos.
+
+🔹 1.3. Satisfacción laboral según años en la empresa
+
+La satisfacción se mantiene estable con el tiempo.
+
+Existen picos anómalos:
+
+- Altísima satisfacción en quienes llevan 40 años (probable liderazgo fundador).
+
+- Insatisfacción notable en quienes llevan 28–35 años (posibles cohortes con peores condiciones).
+
+🔹 1.4. Conciliación familiar
+
+La columna numberchildren no contiene datos → no se puede evaluar impacto del cuidado de hijos/dependientes.
+
+Esta hipótesis queda abierta y es relevante para RRHH.
+
+🔹 1.5. Frecuencia de viajes laborales
+Aspectos destacables:
+
+- Más del 50% del personal no viaja.
+
+- Los viajes frecuentes:
+
+- No implican mayores salarios.
+
+- Tampoco generan mayor insatisfacción directamente.
+
+- Sí están asociados a mayor rotación, especialmente en empleados de alto desempeño.
+
+Posible interpretación:
+Los viajes no estresan, pero la falta de compensación o reconocimiento sí puede hacerlo.
+
+🔹 1.6. Promociones y estancamiento
+
+La frecuencia de promociones difiere por edad:
+
+- 20–34 años: promociones rápidas (1.4 años).
+
+- 35–42 años: consolidación (2.5 años).
+
+- 43–62 años: ralentización clara (3.2 años).
+
+Los empleados que se van, a pesar de una promoción reciente, pueden hacerlo por:
+
+- Oportunidad externa
+
+- Mejora salarial en el mercado
+
+- Insatisfacción persistente no resuelta por la promoción.
+
+Entre empleados con máximos beneficios (stock levels altos):
+
+Después de 4–5 años sin promoción, aumenta la probabilidad de salida.
+
+Insight clave para RRHH:
+El estancamiento profesional es uno de los factores más fuertes de rotación.
+
+🔹 1.7. Satisfacción general según edad
+
+En empleados activos: la edad no influye en su satisfacción media.
+
+En ex-empleados: leve caída entre 30 y 49 años → no relevante estadísticamente.
+
+🔹 1.8. Modalidad de trabajo remoto y distancia al trabajo
+
+El teletrabajo no influye significativamente en la rotación.
+
+La distancia al trabajo sí importa:
+
+- Distancias de 12 a 28 km incrementan la probabilidad de renuncia.
+
+- Los empleados que viven cerca tienden a quedarse más.
+
+🔹 1.9. Jornada laboral (part-time vs full-time)
+
+Los empleados part-time representan el 62% de las salidas.
+
+Indica:
+
+- Menor estabilidad
+
+- Puestos puente
+
+- Menor compromiso
+
+- Peores condiciones o beneficios.
+
+🔹 1.10. Incentivos y beneficios
+Stock Options:
+
+- Ausencia de acciones → mayor rotación.
+
+- Niveles 1–2 reducen significativamente la fuga.
+
+- Incluso empleados con alto nivel de acciones se marchan si llevan 4+ años sin promoción.
+
+Aumentos salariales:
+
+- Los empleados con peor calificación salarial dentro del mismo nivel de desempeño tienden más a irse.
+
+🔹 1.11. Carga laboral y horas extra
+
+Existe correlación clara:
+más horas extra → mayor rotación, especialmente en roles como:
+
+- Sales representative
+
+- Human resources
+
+🔹 1.12. Rotación por puesto de trabajo
+
+Roles con mayor rotación y alta demanda externa:
+
+- Sales representative
+
+- Laboratory technician
+
+- Research scientist
+
+- Human resources
+
+Puntos comunes:
+
+- Edad media más baja
+
+- Menor satisfacción laboral
+
+- Menor promoción
+
+- Mayor carga de trabajo en algunos casos
+
+- Mayor demanda en el mercado laboral
+
+🔹 1.13. Segmento crítico identificado (“Abismo del Talento”)
+
+Empleados:
+
+- Alto desempeño
+
+- Sin acciones
+
+- 4+ años sin promoción
+
+- Bajo Work-Life Balance
+
+➡ Rotación del 31.82% en este grupo.
+➡ Perfil altamente costoso de reemplazar.
+
+### **2. Insights Accionables para RRHH**
+✔ Reforzar promociones en roles con alta rotación.
+✔ Ofrecer incentivos (acciones u otros) a empleados de alto rendimiento.
+✔ Revisar las compensaciones asociadas a viajes laborales.
+✔ Diseñar políticas de soporte a conciliación familiar.
+✔ Aumentar flexibilidad para empleados que viven lejos.
+✔ Prestar especial atención a los roles con alta fuga y mucha demanda.
+✔ Implementar planes de desarrollo profesional para reducir el estancamiento.
+✔ Evaluar condiciones del personal part-time para mejorar retención.
+✔ Identificar y proteger al “segmento crítico” con riesgo alto de abandono.
+
+
+### **3. Next Steps / Necesidades**
+**Datos necesarios para completar el análisis**
+
+- Número de hijos / dependientes (numberchildren)
+- Costes o compensación económica asociada a viajes
+- Información real de planes de carrera
+- Detalle de incentivos no salariales
+- Nivel de carga de trabajo más allá de overtime (volumen de tareas)
+
+**Acciones sugeridas a corto plazo**
+
+- Crear un Plan de Carrera 360º para roles con alto riesgo.
+- Implementar bonificación o compensación específica por viajes.
+- Revisar equidad salarial interna para evitar errores de banda.
+- Lanzar una encuesta interna sobre Work-Life Balance.
+- Diseñar un Programa de retención para High Performers.
+
+**Acciones a medio plazo**
+
+- Revisión anual de bandas salariales según mercado.
+- Modelo de trabajo híbrido para quienes viven lejos.
+- Programa de mentoría para empleados jóvenes (18–29).
+- Automatización o redistribución de tareas en puestos con muchas horas extra.
+
+### **4. Posibles conclusiones adicionales a explorar**
+
+- Impacto de la personalidad del manager en la rotación por equipo.
+- Relación entre formación interna y desempeño real.
+- Análisis de las primeras salidas (<1 año) para identificar causas tempranas.
+- Efecto del salario inicial vs. salario actual en permanencia.
+- Comparativa por departamento para identificar culturas locales tóxicas o saludables.
+- Satisfacción diferenciada entre roles técnicos vs no técnicos.
