@@ -17,8 +17,8 @@ Por otra parte, encontrarás el informe final de la consultoría para RR.HH.
     - "Fase_1_EDA.ipynb" - EDA. Exploración datos.
     - "Fase_2_limpieza_datos.ipynb". Limpieza datos. Creación CSV limpio.
     - "Fase_3_analisis_descriptivo.ipynb". Visualización y análisis.
-    - "Fase_4_BBDD_SQL.ipynb". Volcado a BB.DD.
-    - "BBDD_talento_ABC_corporation.sql". BB.DD. SQL 
+    - "Fase_4_codigo_SQL.ipynb". Volcado a BB.DD.
+    - "Fase_4_bbdd_sql.sql". BB.DD. SQL 
     - "Info_proyecto.md". Información sobre el contenido y estructura del ejercicio, así como consideraciones del análisis.  
 
     Archivos CSV a cargar para leer los archivos Jupyter:
