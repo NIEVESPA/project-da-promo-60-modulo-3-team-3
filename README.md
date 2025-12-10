@@ -17,7 +17,7 @@ Por otra parte, encontrarás el informe final de la consultoría para RR.HH.
     - "Fase_1_EDA.ipynb" - EDA. Exploración datos.
     - "Fase_2_limpieza_datos.ipynb". Limpieza datos. Creación CSV limpio.
     - "Fase_3_analisis_descriptivo.ipynb". Visualización y análisis.
-    - "Fase_4_codigo_SQL.ipynb". Volcado a BB.DD.
+    - "Fase_4_codigo_sql.ipynb". Volcado a BB.DD.
     - "Fase_4_bbdd_sql.sql". BB.DD. SQL 
     - "Info_proyecto.md". Información sobre el contenido y estructura del ejercicio, así como consideraciones del análisis.  
 
@@ -26,11 +26,9 @@ Por otra parte, encontrarás el informe final de la consultoría para RR.HH.
     - "hr_data_clean.csv". Datos limpios. (Fase 3 y 4)
      
 
-**Carpeta "PRUEBAS": archivos internos de trabajo**
-
 **Carpeta "CONSULTORÍA" : informe y presentación consultoría**
-- "Informe consultoría retención de talento". Informe conclusiones consultoría para RR.HH.
-- "Presentación conclusiones". 
+- "Informe final". Informe conclusiones consultoría para RR.HH.
+- "PPTX conclusiones_equipo 3". 
 
 
 ## Qué librerías necesitas: 
@@ -45,6 +43,31 @@ import numpy as np
 
 ## Qué encontrarás dentro: 
 
-### Por ejemplo: 
 
-------- gráficas 
+### Por ejemplo:
+
+Tablas: 
+
+![alt text](image.png)
+
+Código de limpieza:
+
+```python
+
+#NORMALIZACIÓN MARITALSTATUS. 
+df['maritalstatus'] = df['maritalstatus'].fillna('unknown').replace('marreid', 'married')
+
+
+#DISTANCEFROMHOME
+numerador = df[df['distancefromhome']<0].shape[0]
+denominador = df.shape[0] #ACCEDEMOS AL NÚMERO TOTAL DE FILAS
+porcentaje_negativos = (numerador/denominador)*100 #EVITAMOS NÚMEROS MÁGICOS
+print(f'porcentaje de negativos que contiene distancefromhome: {porcentaje_negativos}')
+df['distancefromhome'] = abs(df['distancefromhome']) #CON ABS TODA LA SERIE FUNCIONA COMO UN VALOR ABSOLUTO
+print(f'comprobamos cantidad de negativos en distancefromhome, tras conversion en valor absoluto: {df[df['distancefromhome']<0].shape[0]}')
+```
+
+
+Gráficas para visualizar:
+
+![alt text](<rotacion promocion x rol.png>)
