@@ -20,6 +20,7 @@ Por otra parte, encontrarás el informe final de la consultoría para RR.HH.
     - "Fase_4_codigo_sql.ipynb". Volcado a BB.DD.
     - "Fase_4_bbdd_sql.sql". BB.DD. SQL 
     - "Info_proyecto.md". Información sobre el contenido y estructura del ejercicio, así como consideraciones del análisis.  
+    - "src". Carpeta archivos soporte. 
 
     Archivos CSV a cargar para leer los archivos Jupyter:
     - "hr_raw_data.csv". Datos en bruto. (Fase 1 y 2)
