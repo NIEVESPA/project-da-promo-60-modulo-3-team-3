@@ -1,6 +1,6 @@
 # Léeme:
 
-¡Hola, Adalaber! Lee atentamente qué encontrarás en este repositorio.
+¡Hola! Lee atentamente qué encontrarás en este repositorio.
 
 ## Contenido del respositorio: 
 Aquí encontrarás los archivos del proyecto grupal del Módulo 3 del equipo 3. 
@@ -8,6 +8,8 @@ Aquí encontrarás los archivos del proyecto grupal del Módulo 3 del equipo 3.
 Por una parte, si quieres tener información de todo el proceso de análisis de datos e información para entender dicho análisis, consulta el archivo "Info_proyecto.md".Encontrarás, además, archivos técnicos de cada fase del proyecto. 
 
 Por otra parte, encontrarás el informe final de la consultoría para RR.HH. 
+
+En cuanto a la visualización, encontrarás una carpeta llamada Tableau con los archivos de trabajo de Tableau. Puedes visualizar el resultado final en Tableau Public: https://public.tableau.com/app/profile/bootcamp.project/viz/TheSimpsonsanlisisxito/PORTADA?publish=yes
 
 ## Archivos:
 
