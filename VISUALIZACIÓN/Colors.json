@@ -1,0 +1,102 @@
+{
+    "name": "ABC Corp - Neon Professional",
+    "dataColors": [
+        "#4895EF", 
+        "#8DBEF4", 
+        "#4CC9F0", 
+        "#F72585", 
+        "#00F5D4", 
+        "#666666"
+    ],
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#252526" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#3E3E42" } },
+                        "radius": 8
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": { "solid": { "color": "#F2F2F2" } },
+                        "background": { "solid": { "color": "#252526" } },
+                        "fontSize": 14,
+                        "fontFamily": "Segoe UI Semibold",
+                        "alignment": "Left"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "foreground": { "solid": { "color": "#F2F2F2" } },
+                        "background": { "solid": { "color": "#252526" } }
+                    }
+                ],
+                "labels": [
+                    {
+                        "color": { "solid": { "color": "#B3B3B3" } },
+                        "fontSize": 9,
+                        "fontFamily": "Segoe UI"
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#1A1C1E" } },
+                        "transparency": 0
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": { "solid": { "color": "#1A1C1E" } },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "categoryAxis": [
+                    {
+                        "labelColor": { "solid": { "color": "#B3B3B3" } },
+                        "fontSize": 9
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "labelColor": { "solid": { "color": "#B3B3B3" } },
+                        "gridlineShow": true,
+                        "gridlineColor": { "solid": { "color": "#333333" } }
+                    }
+                ]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "categoryAxis": [
+                    {
+                        "labelColor": { "solid": { "color": "#B3B3B3" } }
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "labelColor": { "solid": { "color": "#B3B3B3" } },
+                        "gridlineColor": { "solid": { "color": "#333333" } }
+                    }
+                ]
+            }
+        }
+    }
+}
