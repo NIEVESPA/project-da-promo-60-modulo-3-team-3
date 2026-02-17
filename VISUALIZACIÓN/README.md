@@ -31,9 +31,9 @@ Por este motivo:
 - **Método de importación:** Power BI Desktop → File → Get Data → Text/CSV → Transform Data
 
 ### Observaciones iniciales del dataset
-- **Número de columnas:**  ~XX  
-- **Número de registros:** 1252  
-- **Codificación:** Western European (Windows)  
+- **Número de columnas:** 41  
+- **Número de registros:** 1614 
+- **Codificación:** 1252: Western European (Windows)  
 - **Separador:** Coma  
 - **Comentarios iniciales:** Power BI crea automáticamente una columna adicional para conteo de filas (`column 0`).
 
@@ -42,7 +42,7 @@ Por este motivo:
 ## 2️⃣ Organización de Columnas
 
 - Se movió la columna `employeenumber` al inicio del dataset.  
-- Se trasladaron todas las columnas con valores en `$` al final del dataset para mayor claridad en dashboards.  
+- Se trasladaron todas las columnas con valores en `$` al final del dataset.  
 
 ---
 
@@ -50,9 +50,9 @@ Por este motivo:
 
 | Nombre original      | Nuevo nombre       | Transformación / Justificación                     |
 |---------------------|------------------|--------------------------------------------------|
-| `attrition`         | `employee status` | `yes → ex-employee`, `no → employee`           |
-| `remote work`       | `workplace`       | Tipo de dato cambiado a **text**, `true → remote`, `false → on-site` |
-| `standard hours`    | `workinghours`    | Cambio de nombre para mayor claridad            |
+| `attrition`         | `attrition` | `yes → ex-employee`, `no → employee`           |
+| `remote work`       | `workplace`       | `true → remote`, `false → on-site`, dato **text** |
+| `standard hours`    | `workinghours`    | cambio de nombre para mayor claridad            |
 
 ---
 
@@ -83,7 +83,6 @@ Por este motivo:
 
 > Se crearon las siguientes medidas para analizar la rotación (attrition) y los niveles de satisfacción dentro de la organización.
 
----
 
 🔹 Métricas de Rotación
 
