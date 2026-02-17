@@ -128,6 +128,11 @@ avg relationship sat = AVERAGE('hr_data_clean'[relationshipsatisfaction])
 avg work life balance = AVERAGE('hr_data_clean'[worklifebalance])
 ```
 
+```DAX
+overall sat = DIVIDE([A avg env sat] + [A avg job invol] + [A avg job sat] +
+                    [A avg relationship sat] + [A avg work life balance], 5)
+```
+         
 ---
 
 🔹 Añade aquí más campos calculados...
