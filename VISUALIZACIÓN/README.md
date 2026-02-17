@@ -132,7 +132,11 @@ avg work life balance = AVERAGE('hr_data_clean'[worklifebalance])
 overall sat = DIVIDE([A avg env sat] + [A avg job invol] + [A avg job sat] +
                     [A avg relationship sat] + [A avg work life balance], 5)
 ```
-         
+
+```DAX
+employees = CALCULATE( COUNTROWS('hr_data_clean'), 'hr_data_clean'[attrition] = "employee" )
+```
+
 ---
 
 🔹 Añade aquí más campos calculados...
